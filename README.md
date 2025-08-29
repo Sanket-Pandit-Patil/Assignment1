@@ -37,3 +37,7 @@ It focuses on working with a corpus dataset, constructing a co-occurrence matrix
 Make sure you have the following installed:
 ```bash
 pip install nltk scikit-learn matplotlib
+import nltk
+nltk.download('gutenberg')
+nltk.download('punkt')
+nltk.download('stopwords')
